@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+main p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+    font-size: 16pt;
+}
+
+header h1{
+    color: darkgreen;
+}
+
+footer p {
+    color: purple;
+}
+
+#woaw{
+    color: green;
+}
+
+#q1{
+    color: red;
+}
+#q2{
+    color: green;
+}
+#q3{
+    color: rgb(37, 37, 134);
+}
+#q4{
+    color:  palevioletred;
+}
+#q5{
+    color: orange;
+}
+.grey{
+    color: grey;
+}
+.bigger{
+    font-size: 30pt;
+}
+.diff{
+    font-style: italic;
+}
+.spec{
+    font-weight: 800;
+}
