@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(178, 239, 178);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+header h1 {
+    color: black;
+}
+
+main h1{
+    color: crimson;
+}
+
+.sections{
+    color: crimson;
+}
+
+.weighty{
+        font-weight: 800;
+}
+
+#ital{
+    font-style: italic;
+}
+
+footer{
+    color: darkslategray;
+}
+
+nav a{
+    color: rgb(154, 100, 0);
+}
