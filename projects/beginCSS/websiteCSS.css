@@ -1,7 +1,8 @@
 body {
-    background-color: rgb(178, 239, 178);
+    background-color: rgb(168, 238, 255);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
+    color: rgb(12, 0, 105);
 }
 
 header h1 {
@@ -19,7 +20,12 @@ main h1{
 .weighty{
         font-weight: 800;
 }
-
+.italic{
+    font-style: italic;
+}
+.crimson{
+    color: crimson;
+}
 #ital{
     font-style: italic;
 }
@@ -30,4 +36,10 @@ footer{
 
 nav a{
     color: rgb(154, 100, 0);
+}
+#empex{
+    color: crimson;
+}
+.deempex{
+    color: darkslategray;
 }
