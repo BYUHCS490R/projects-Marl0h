@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(161, 201, 228);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+span {
+    color: red;
+}
+.width{
+    width: 575px;
+}
