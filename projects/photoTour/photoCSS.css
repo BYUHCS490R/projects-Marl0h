@@ -1,6 +1,33 @@
+header{
+    background: url(Sarahsaurus_reconstructed_skull.png) no-repeat right top;
+}
 body{
-    background-color: white;
-    color: black;
+    background: url(Museum_Silhouette.png) repeat #F5DDDD;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12pt;
+}
+h1{
+    color: #2018c3;
+}
+main p{
+    color: #0b3954;
+}
+.link{
+    color: #B3001B;
+    font-variant: small-caps;
+    font-size: 12pt;
+}
+.mainlink{
+    color: #B3001B;
+    font-variant: small-caps;
+    font-size: 20pt;
+}
+.current{
+    color: #6f0011;
+}
+.bullet{
+    list-style-image: url(Jellyfish_20251008092704.png);
+}
+footer p{
+    color: #6d6dff;
 }
