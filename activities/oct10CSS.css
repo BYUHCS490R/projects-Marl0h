@@ -1,0 +1,34 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: rgb(173, 173, 255);
+    color: darkred;
+}
+.class1{
+    background-color: aqua;
+    padding: 30px;
+    border-color: black;
+    margin: 10px;
+    
+}
+.class2{
+    border: black dashed 7px;
+    background-color: beige;
+    width: 50%;
+}
+.class3{
+    background-color: darkcyan;
+    margin: 30px;
+    padding: 20px;
+}
+.class4{
+    margin: 100px;
+    background-color: white;
+    padding: 50px;
+    border-color: black;
+    border-style: ridge;
+    border-width: 15px;
+    width: 50%;
+}
+p{
+    border: thin solid black;
+}
