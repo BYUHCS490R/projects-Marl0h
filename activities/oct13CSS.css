@@ -1,0 +1,41 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-style: oblique;
+    color: royalblue;
+    background: lightyellow;
+}
+.figure{
+    border: black dashed;
+    width: 300px;
+}
+nav a{
+    display: block;
+    background-color: yellow;
+    padding: 10px;
+    border: white solid;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.hammer{
+   /* position: relative; #saves space for image and lets you move it around
+    left: 400px;*/
+   /* position: absolute; #does not save space for image
+    top: -20px;
+    z-index: -1 #puts image behind or in front */
+   /* position: fixed; /* image is fixed to the view, absolute fixes to the whole page 
+    top: -10px; */
+    position: relative;
+} 
+.figure img{
+    width: 100%;
+}
+.floater{
+    float: left;
+}
+.stop{
+    clear: both;
+}
