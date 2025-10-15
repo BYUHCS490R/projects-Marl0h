@@ -1,0 +1,69 @@
+header{
+    background: url("pokeball.jpg") no-repeat right;
+}
+body{
+    background-color: lightblue;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#wrapper{
+    background-color: white;
+    width: 850px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+    font-variant: small-caps;
+    text-align: center;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.links{
+    background-color: red;
+    margin: 20px;
+    padding: 15px;
+    border: lightblue solid;
+    text-decoration: none;
+    color: white;
+}
+main h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    text-shadow: 5px 5px 5px black;
+    background-color: lightblue;
+    width: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    border-color: red;
+    border: solid;
+    text-align: center;
+    text-transform: uppercase;
+    box-shadow: 10px 10px 5px black;
+}
+.links:hover{
+    text-decoration: underline;
+}
+.float{
+    float: left;
+    background-color: white;
+    border: red double;
+}
+figure{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    margin-left: 0px;
+}
+main p{
+    color: red;
+}
+footer p{
+    color: blue;
+    line-height: 5px;
+}
+.stop{
+    clear: both;
+}
