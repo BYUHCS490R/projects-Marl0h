@@ -1,0 +1,47 @@
+body{
+    color: purple;
+    background-color: rgb(247, 191, 241);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: grid;
+    grid-template-columns: .75fr 1fr 1fr .75fr;
+    gap: 75px;
+    text-align: center;
+}
+nav a{
+    color: rgb(128, 0, 77);
+    background-color: white;
+    border: black 2px solid;
+}
+h1{
+    border: black 2px solid;
+    background-color: white;
+}
+h2{
+    font-variant: small-caps;
+    background: white;
+    border: black solid 2px;
+}
+li{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-right: 45px;
+    color: rgb(0, 0, 0);
+    border: rgb(0, 0, 0) solid 1px;
+    background-color: rgb(245, 241, 197);
+}
+.answer{
+    color: rgb(13, 51, 126);
+}
+.parent{
+    display: grid;
+    grid-template-columns: 1fr 1.25fr 1fr;
+    margin: 10px 10px 10px 10px;
+    gap: 75px;
+}
+.child{
+    color: black;
+    background-color: rgb(245, 241, 197);
+    border: black 1px solid;
+}
