@@ -1,0 +1,15 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card{
+    border: black solid 2px;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px rgba(30,30,30,.5);
+    width: 225px;
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
