@@ -1,0 +1,44 @@
+.mainside{
+    display: flex;
+    flex-flow: row;
+}
+aside{
+    width: 150px;
+    padding: 10px;
+    flex-shrink: 0;
+}
+.allC{
+    display: flex;
+    flex-wrap: wrap;
+}
+figure{
+    margin: 0px;
+}
+.cards{
+    width: 200px;
+    border: black solid 1px;
+    margin: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    display: block;
+    background: lightblue;
+}
+header h1{
+    padding: 15px;
+    color: white;
+    background-color: rgb(118, 0, 139);
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.footers a{
+    display: block;
+    padding: 5px;
+    text-align: center;
+}
