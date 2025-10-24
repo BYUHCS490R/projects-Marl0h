@@ -1,0 +1,61 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(246, 181, 202);
+    color: navy;
+    margin: 0;
+}
+
+.mainside{
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: navy;
+}
+h1{
+    margin: 0;
+}
+nav a{
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: rgb(79, 79, 255);
+    text-decoration: none;
+    border: black solid 1px;
+    width: 7%
+}
+header h1{
+    background-color: palevioletred;
+    padding: 10px;
+    margin: 0;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+h2{
+    margin: 0;
+}
+h3{
+    margin: 0;
+}
+.sidebar{
+    width: 120px;
+    flex-shrink: 0;
+    margin: 10px;
+    background-color: rgb(232, 230, 230);
+}
+.card img{
+    width: 100%;
+}
+.card{
+    border: black solid 1px;
+    width: 20%;
+    box-shadow: 3px 3px 3px black;
+    margin: 10px
+}
+.cardtainer{
+    display: flex;
+    flex-flow: row wrap;
+}
