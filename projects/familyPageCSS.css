@@ -1,0 +1,95 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+.containment{
+    background-color: lightgoldenrodyellow;
+    margin: 1%;
+}
+header{
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    border: black 1px solid;
+}
+nav a{
+    display: block;
+    background-color: rgb(170, 70, 70);
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    border: black 1px solid;
+    text-decoration: none;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+nav a:link{
+    color: white;
+}
+.mainside{
+    display: flex;
+}
+aside{
+    padding: 0px 20px 10px 10px;
+    width: 20%;
+    background-color: palegoldenrod;
+    text-align: left;
+    color: rgb(200, 0, 0);
+}
+aside figure{
+    margin: 10px 0px 0px 0px;
+    padding: 0px;
+}
+aside figure img{
+    width: 100%;
+}
+aside figcaption{
+    border: black 1px solid;
+}
+aside h2{
+    color: black;
+}
+aside ul{
+    padding: 10px;
+}
+main{
+    padding: 0px 0px 0px 5px;
+}
+h1{
+    margin: 0px;
+}
+h2{
+    margin: 0px;
+}
+
+.contain{
+    display: flex;
+    flex-flow: row wrap;
+}
+.card img{
+    width: 100%;
+}
+.card h2{
+    color: rgb(200, 0, 0)
+}
+.card{
+    border: black 1px solid;
+    width: 200px;
+    margin: 10px;
+    background-color: lightyellow;
+}
+
+@media ONLY screen AND (max-width: 500px){
+    nav{
+        flex-direction: column;
+    }
+    .mainside{
+        flex-direction: column-reverse;
+    }
+    aside{
+        width: 100%;
+    }
+}

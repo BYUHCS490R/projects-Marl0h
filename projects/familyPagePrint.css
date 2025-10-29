@@ -1,0 +1,13 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+aside{
+    color: black;
+}
+.card h2{
+    color: black;
+}
+nav{
+    display: none;
+}
