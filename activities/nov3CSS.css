@@ -1,0 +1,45 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    background: rgb(53, 82, 53);
+}
+nav a:link{
+    color: white;
+}
+.schedule{
+    margin: auto;
+    border: thin solid white;
+    border-spacing: 0;
+    border-collapse: collapse;
+    caption-side: top;
+    width: 80%;
+}
+.schedule thead tr{
+    background-color: rgb(255, 150, 255);
+    color: rgb(0, 0, 0);
+}
+.schedule tfoot tr{
+    background-color: rgb(255, 150, 255);
+    color: rgb(0, 0, 0);
+}
+.schedule tbody tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+    color: black
+}
+.schedule tbody tr:nth-child(even){
+    background-color: lightgray;
+    color: black
+}
+.schedule th, td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 4px;
+}
+.num{
+    vertical-align: top;
+}
+.mun{
+    text-align: start;
+}
+.test{
+    overflow: scroll;
+}
