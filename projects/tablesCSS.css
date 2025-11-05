@@ -1,0 +1,80 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0e2240;
+    color: #fec524;
+}
+.container{
+    margin: auto;
+    width: 80%;
+    background-color: #1D4289;
+    padding: 5px 0px 5px 5px;
+}
+nav{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color: #fec524;
+}
+nav a{
+    margin: 10%;
+}
+nav a:link{
+    color: #8b2131;
+}
+.mainside{
+    display: flex;
+    flex-direction: row-reverse;
+}
+aside{
+    background-color: #8b2131;
+    padding: 5px;
+    width: 20%;
+}
+main{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+aside ul{
+    padding: 20px;
+}
+.stats{
+    margin: auto;
+    border: thin solid white;
+    border-spacing: 0;
+    border-collapse: collapse;
+    caption-side: top;
+    width: 80%;
+}
+table caption{
+    background-color: #8b2131;
+    color: #fec524;
+    font-style: italic;
+}
+.stats thead tr{
+    background-color: #fec524;
+    color: rgb(0, 0, 0);
+}
+.stats tbody tr:nth-child(odd){
+    background-color: white;
+    color: black;
+}
+.stats tbody tr:nth-child(even){
+    background-color: lightgray;
+    color: black;
+}
+.stats tfoot tr:nth-child(odd){
+    background-color: #8b2131;
+    color: #fec524;
+}
+.stats tfoot tr:nth-child(even){
+    background-color: #fec524;
+    color: #0e2240;
+}
+.stats th, td{
+    border: 1px solid rgb(0, 0, 0);
+    padding: 4px;
+}
+footer{
+    padding: 5px;
+}
