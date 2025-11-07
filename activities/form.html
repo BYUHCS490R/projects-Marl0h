@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="formCSS.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Forms
+        </h1>
+        <nav>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <h1>
+            Forms
+        </h1>
+        <form action="formprocess.html" method="post">
+            <div>
+                <label for="fname">Full Name:</label>
+                <input type="text" name="fname" placeholder="Full Name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Email">
+            </div>
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" name="pass" placeholder="Password">
+            </div>
+            <div>
+                <label for="state">State:</label>
+                <select name="state" id="state">
+                    <option value="blank" selected>---</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="CO">Colorado</option>
+                    <option value="UT">Utah</option>
+                    <option value="CA">California</option>
+                    <option value="NY">New York</option>
+                    <option value="AL">Alabama</option>
+                </select>
+            </div>
+            <div>
+                Gender:
+                <label><input type="radio" name="gender" value="Male"> Male</label>
+                <label><input type="radio" name="gender" value="Female"> Female</label>
+            </div>
+            <div>
+                <label for="comment">Comments:</label>
+                <textarea name="comment" id="comment"></textarea>
+            </div>
+            <div>
+                <label><input type="checkbox" checked> I agree to the Terms and Conditions</label>
+            </div>
+            <input type="submit" value="Sign Up">
+        </form>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio nesciunt magnam commodi eaque facilis tenetur dolore minus nobis fuga, at ipsum autem distinctio non dolorum quam facere ab excepturi quaerat.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat nesciunt rem illum tempora nulla adipisci officiis voluptatum harum modi. Nihil expedita earum esse consectetur repudiandae nesciunt facilis enim consequatur quos.
+        </p>
+        <h2>
+            Questions
+        </h2>
+        <ul>
+            <li>
+                The form tag has an "action" attribute. What does it do? <br>
+                --It acts like an href, linking to another location
+            </li>
+            <li>
+                The form tag has a "method" attribute. What does it do? <br>
+                --A get retrieves the input and puts it in the url
+            </li>
+            <li>
+                What is the difference between a "POST" and a "GET"? <br>
+                --A "post" will not put the user's input into the url, unlike a "get" Post requests are for changes to the server, whereas get requests are used when the server just reads your input.
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
