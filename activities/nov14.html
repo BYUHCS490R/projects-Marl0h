@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Processing</title>
+    <link rel="stylesheet" href="nov14CSS.css">
+</head>
+<body>
+    <header>
+        <h1>
+            aaaa
+        </h1>
+        <nav>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+    <main>
+        <h1>
+            AAAA
+        </h1>
+        <p>
+            AAAA
+        </p>
+        <form action="formprocess.html" method="post" id="myForm">
+            <fieldset>
+                <legend>Sign Up!</legend>
+                <div class="form-row">
+                    <label for="fname">Full Name:</label>
+                    <input id="fullname" type="text" name="fname" placeholder="Full Name">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email" placeholder="Email">
+                </div>
+                <div class="form-row">
+                    <label for="pass">Password:</label>
+                    <input id="pass" type="password" name="pass" placeholder="Password">
+                </div>
+                <div class="form-row">
+                    <label for="state">State:</label>
+                    <select id="state" name="state" id="state">
+                        <option value="blank" selected>---</option>
+                        <option value="HI">Hawaii</option>
+                        <option value="CO">Colorado</option>
+                        <option value="UT">Utah</option>
+                        <option value="CA">California</option>
+                        <option value="NY">New York</option>
+                        <option value="AL">Alabama</option>
+                    </select>
+                </div>
+                <div class="check-row">
+                    <div class="spacer">Gender:</div>
+                    <label><input id="gender" type="radio" name="gender" value="Male"> Male</label>
+                    <label><input id="gender" type="radio" name="gender" value="Female"> Female</label>
+                </div>
+                <div class="form-row">
+                    <label for="comment">Comments:</label>
+                    <textarea id = "comment" name="comment" id="comment"></textarea>
+                </div>
+                <div class="check-row">
+                    <div class="spacer"></div>
+                    <label><input type="checkbox" checked="FALSE"> I agree to the Terms and Conditions</label>
+                </div>
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit" value="Sign Up">
+                </div>
+            </fieldset>
+        </form>
+        <h2>
+            Questions!
+        </h2>
+        <ul>
+            <li>
+                What is JavaScript? How did it get its name? <br>
+                -- JavaScript is a coding language for webpage interactivity. It got its name from Sun Microsystems, who wanted to connect their JavaScript language to their Java coding language.
+            </li>
+            <li>
+                What are the two ways you can run JavaScript? <br>
+                -- you can embed the JavaScript into the webbrowser/html page (Document Object Model(DOM)). Or, you can use Node.js, which acts like python.
+            </li>
+            <li>
+                What was the most popular front-end js library? <br>
+                -- jQuery. it was popular because it handled the different forms of web browser without needing extra code
+            </li>
+            <li>
+                What is the most popular front-end js library today? <br>
+                -- React. it is open-sourced from Meta, and is popular for its mobile abilities and other innovations. React can also be used to make webpages into apps for mobile or computer with React native and React Electrum
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <p>
+            footer
+        </p>
+    </footer>
+    <script>
+        document.getElementById('myForm').addEventListener('submit',function(event) {
+            event.preventDefault();
+
+            const fullname = document.getElementById('fullname').value;
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('pass').value;
+            //const state = document.getElementById('state').value;
+            //const gender = document.getElementById('gender').value;
+            //const comment = document.getElementById('comment').value;
+
+            if (!fullname || !email) {
+                alert("You need to enter a name and email")
+                return;
+            }
+            const formData = {
+                name: fullname,
+                email: email,
+                password: password,
+            }
+            alert("Form Submitted");
+            console.log(formData);
+        });
+    </script>
+</body>
+</html>
