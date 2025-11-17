@@ -17,7 +17,6 @@ document.getElementById('myForm').addEventListener('submit',function(event) {
         email: email,
         password: password,
     }
-    alert("Form Submitted");
     console.log(formData);
 
     const xhr = new XMLHttpRequest();
