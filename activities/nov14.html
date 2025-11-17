@@ -22,6 +22,7 @@
         <p>
             AAAA
         </p>
+        <div id="message"></div>
         <form action="formprocess.html" method="post" id="myForm">
             <fieldset>
                 <legend>Sign Up!</legend>
@@ -89,35 +90,24 @@
                 -- React. it is open-sourced from Meta, and is popular for its mobile abilities and other innovations. React can also be used to make webpages into apps for mobile or computer with React native and React Electrum
             </li>
         </ul>
+        <h2>
+            Questions! 11/17
+        </h2>
+        <ul>
+            <li>
+                What is AJAX? <br>
+                --Ajax changes the page when a form is interacted with
+            </li>
+            <li>
+                Why do you put your JS Code in a separate file? <br>
+                --So we can clean up our page and use more than one form
+            </li>
     </main>
     <footer>
         <p>
             footer
         </p>
     </footer>
-    <script>
-        document.getElementById('myForm').addEventListener('submit',function(event) {
-            event.preventDefault();
-
-            const fullname = document.getElementById('fullname').value;
-            const email = document.getElementById('email').value;
-            const password = document.getElementById('pass').value;
-            //const state = document.getElementById('state').value;
-            //const gender = document.getElementById('gender').value;
-            //const comment = document.getElementById('comment').value;
-
-            if (!fullname || !email) {
-                alert("You need to enter a name and email")
-                return;
-            }
-            const formData = {
-                name: fullname,
-                email: email,
-                password: password,
-            }
-            alert("Form Submitted");
-            console.log(formData);
-        });
-    </script>
+    <script src="form.js"></script>
 </body>
 </html>
