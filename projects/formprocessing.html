@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formprocessCSS.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Enter Your Credit Card Number! (dont)
+        </h1>
+        <nav>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <h1>
+            Dont Forget The Numbers On The Back! (do forget)
+        </h1>
+        <p>
+            This is a filler line I am putting here mostly so I can space out the website a bit so it isn't all cramped. There is nothing of substance to the sentence you just read or the one you are currently reading. This sentence and all further sentences are also void of any and all value. Stop reading this you have better things to be doing. Anyway, this should be enough text for decent spacing. I wouldn't know I'm writing this before I have even looked at my webpage, let alone designed anything.
+        </p>
+        <div id="message"></div>
+        <form action="formprocess.html" method="post" id="myForm">
+            <fieldset>
+                <legend>Enter Your Comment!</legend>
+                <div class="form-row">
+                    <label for="fname">Name:</label>
+                    <input id="name" type="text" name="name" placeholder="Name">
+                </div>
+                <div class="spacer"></div>
+                <div class="form-row">
+                    <label for="comment">Comment:</label>
+                    <textarea id = "comment" name="comment" id="comment" placeholder="Enter Comment Here!"></textarea>
+                </div>
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit" value="Enter!">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>
+            footer
+        </p>
+    </footer>
+    <script src="fp.js"></script>
+</body>
+</html>

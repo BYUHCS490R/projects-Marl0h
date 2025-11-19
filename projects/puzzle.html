@@ -114,7 +114,8 @@
                 <h1>
                     Find The Answers
                 </h1>
-                <form action="formprocess.html" method="post">
+                <div id="message"></div>
+                <form action="formprocess.html" method="post" id="myForm">
                     <fieldset>
                         <legend>Answers</legend>
                         <div class="form-row">
@@ -143,9 +144,9 @@
                         </div>
                         <div class="check-row">
                             <div class="spacer">5: A-C?</div>
-                            <label><input type="radio" name="A-C?" value="A"> A</label>
-                            <label><input type="radio" name="A-C?" value="B"> B</label>
-                            <label><input type="radio" name="A-C?" value="C"> C</label>
+                            <label><input type="radio" name="A-C?" value="A" id="radio-a"> A</label>
+                            <label><input type="radio" name="A-C?" value="B" id="radio-b"> B</label>
+                            <label><input type="radio" name="A-C?" value="C" id="radio-c"> C</label>
                         </div>
                         <div class="form-row">
                             <label for="comment">6: Comment?</label>
@@ -153,11 +154,11 @@
                         </div>
                         <div class="check-row">
                             <div class="spacer"></div>
-                            <label><input type="checkbox" checked>7: Checked?</label>
+                            <label><input type="checkbox" checked id="check">7: Checked?</label>
                         </div>
                         <div class="form-row">
-                            <label for="month">8: This Month?</label>
-                            <input type="month" name="month?" id="month">
+                            <label for="Number">Number Between 10 and 20</label>
+                            <input type="number" name="number" id="number">
                         </div>
                         <div class="form-row">
                             <div class="spacer"></div>
@@ -289,5 +290,6 @@
             </p>
         </footer>
     </div>
+    <script src="fp.js"></script>
 </body>
 </html>
