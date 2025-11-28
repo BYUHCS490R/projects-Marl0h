@@ -22,6 +22,7 @@ header h1{
     max-width: 100%;
     overflow-x: auto;
     border: thin solid #bf9f4c;
+    margin: 5px;
 }
 table{
     min-width: 100%;
@@ -120,7 +121,7 @@ main h1{
 .landing{
     margin: 100px 0px 0px 0px;
 }
-main p{
+.intro{
     padding: 0px 5px;
 }
 .card{
@@ -162,6 +163,16 @@ footer p{
 .musicCard h2{
     text-decoration: underline #bf9f4c;
 }
+.gameCard, .artCard{
+    display: flex;
+    flex-direction: row;
+    border: thin solid #bf9f4c;
+    width: auto;
+    margin: 5px;
+}
+.artCard p{
+    margin: 10px;
+}
 
 
 
@@ -176,12 +187,17 @@ footer p{
     aside h3{
         display: none;
     }
+    .artCard{
+        flex-direction: column;
+    }
 }
 @media ONLY screen AND (max-width: 500px){
     .container{
         width: 100%;
+        margin: 0;
     }
     body{
+        width: 100%;
         margin: 0;
     }
     .arloHome{
@@ -191,7 +207,7 @@ footer p{
         flex-direction: column-reverse;
     }
     aside{
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
     main{
@@ -200,5 +216,8 @@ footer p{
     }
     main h1{
         margin: 10px 0px;
+    }
+    .artCard{
+        flex-direction: column;
     }
 }
