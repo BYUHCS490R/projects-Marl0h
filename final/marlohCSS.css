@@ -150,7 +150,7 @@ footer p{
     display: flex;
         flex-wrap: wrap;
 }
-.musicCard{
+.musicCard, .sportCard{
     display: flex;
     flex-direction: column;
     border: thin solid #bf9f4c;
@@ -173,6 +173,9 @@ footer p{
 .artCard p{
     margin: 10px;
 }
+.histCard{
+    border: #bf9f4c 1px solid;
+}
 
 
 
@@ -180,7 +183,7 @@ footer p{
 
 
 
-@media ONLY screen AND (max-width: 1080px) AND (min-width: 500px){
+@media ONLY screen AND (max-width: 1080px){
     form{
         display: none;
     }
@@ -204,7 +207,12 @@ footer p{
         display: none;
     }
     .mainside{
-        flex-direction: column-reverse;
+        flex-direction: column;
+    }
+    nav a{
+        margin: 0;
+        border-collapse: collapse;
+        padding: 7px 0px;
     }
     aside{
         width: 95%;
@@ -214,10 +222,7 @@ footer p{
         margin: auto;
         width: 90%;
     }
-    main h1{
+    main h1, .landing{
         margin: 10px 0px;
-    }
-    .artCard{
-        flex-direction: column;
     }
 }
