@@ -16,7 +16,13 @@ header h1{
     margin: 5px 0px;
     text-align: center;
 }
-
+.intro a{
+    color: #bf9f4c;
+    text-decoration: none;
+}
+.intro a:hover{
+    text-decoration: underline;
+}
 .tableScroll{
     width: 100%;
     max-width: 100%;
@@ -157,6 +163,16 @@ footer p{
     width: 200px;
     margin: 5px;
 }
+.sportCard a{
+    color: #bf9f4c;
+    text-decoration: none;
+}
+.sportCard a:hover{
+    text-decoration: underline;
+}
+.sportCard figure{
+    margin: 0px;
+}
 .musicCard p, h2{
     margin: 10px;
 }
@@ -175,6 +191,14 @@ footer p{
 }
 .histCard{
     border: #bf9f4c 1px solid;
+    padding: 5px;
+}
+.histCard a{
+    color: #bf9f4c;
+    text-decoration: none;
+}
+.histCard a:hover{
+    text-decoration: underline;
 }
 
 
@@ -183,15 +207,16 @@ footer p{
 
 
 
-@media ONLY screen AND (max-width: 1080px){
+@media ONLY screen AND (max-width: 1080px) AND (min-width: 500px){
     form{
         display: none;
     }
     aside h3{
         display: none;
     }
-    .artCard{
+    .artCard, .gameCard{
         flex-direction: column;
+        padding: 5px;
     }
 }
 @media ONLY screen AND (max-width: 500px){
@@ -224,5 +249,9 @@ footer p{
     }
     main h1, .landing{
         margin: 10px 0px;
+    }
+    .artCard, .gameCard{
+        flex-direction: column;
+        padding: 5px;
     }
 }
